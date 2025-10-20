@@ -1,0 +1,15 @@
+train:
+  batch_size: 128
+  epochs: 20
+  optimizer: adamw
+  lr: 1e-3
+  weight_decay: 1e-4
+  scheduler: cosine
+  early_stopping_patience: 5
+  grad_clip_norm: 1.0
+  num_workers: 2
+  seasonal_reg_strength: 0.0
+  tensorboard: true
+tuning:
+  enabled: false
+  n_trials: 20

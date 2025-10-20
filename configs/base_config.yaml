@@ -1,0 +1,15 @@
+seed: 42
+data:
+  raw_csv: data/raw/sales.csv
+  processed_dir: data/processed
+  date_col: date
+  id_cols: [store_id, item_id]
+  target_col: sales
+  exogenous_cols: [price, promo, holiday]
+  freq: D
+  train_ratio: 0.8
+  valid_ratio: 0.1
+  test_ratio: 0.1
+  seq_len: 56
+  forecast_horizon: 14
+  scaler: standard

@@ -1,0 +1,10 @@
+model:
+  framework: torch     # torch | tensorflow (torch implemented)
+  tcn_channels: [64, 64, 128]
+  tcn_kernel_size: 3
+  tcn_dropout: 0.1
+  lstm_hidden: 128
+  lstm_layers: 1
+  attention_dim: 64
+  dense_hidden: 128
+  dropout: 0.2

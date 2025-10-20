@@ -1,0 +1,20 @@
+# Core
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+PyYAML>=6.0.1
+matplotlib>=3.8.0
+tqdm>=4.66.0
+
+# Deep learning (choose one; both supported by abstractions here)
+torch>=2.2.0
+# tensorflow>=2.15.0
+
+# Hyperparameter optimization
+optuna>=3.6.0
+
+# Explainability
+shap>=0.45.0
+
+# Logging
+tensorboard>=2.15.1
